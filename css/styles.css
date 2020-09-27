@@ -91,6 +91,11 @@ strong {
   font-weight: 400;
 }
 
+a, a:active, a:hover, a:visited{
+  color: var(--info);
+  text-decoration: underline;;
+}
+
 h1, h2, h3, h4, h5, h6{
   margin-bottom: .5em;
 }
