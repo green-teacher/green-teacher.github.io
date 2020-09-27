@@ -442,6 +442,7 @@ input, textarea{
   border-radius: var(--radius);
   font-size: .8em;
   margin: .5em;
+  background: var(--primary-light);
 }
 
 /*Utilidades*/
