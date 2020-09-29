@@ -1,9 +1,24 @@
+#burguer{
+  position: absolute;
+  top:1em;
+  right:1em;
+  cursor: pointer;
+}
+
+.burguer_show{
+  display: none;
+}
+
 .subnav, .sub_active{
   display: none;
 }
 
 .navbar{
   text-align: center;
+}
+
+.navbar h1{
+  margin:0;
 }
 
 .navbar ul{
@@ -89,4 +104,11 @@
     text-align: right;
   }
 
+  #burguer{
+    display: none;
+  }
+
+  .burguer_show{
+    display: block;
+  }
 }
