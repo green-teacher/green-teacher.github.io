@@ -578,7 +578,12 @@ img {
 	text-align:right;
 }
 
+
+.text_left{
+	text-align:left;
+}
 /********************* Botones */
 button {
   cursor: pointer;
+
 }
