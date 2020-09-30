@@ -10,6 +10,18 @@
   display: none;
 }
 
+
+/* Ocultar scrollbar en Chrome, Safari and Opera */
+.popup::-webkit-scrollbar {
+  display: none;
+}
+
+/* Ocultar scrollbar en IE, Edge and Firefox */
+.popup {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 .popup_container{
   width: 65vw;
   margin:0 auto;
