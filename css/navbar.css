@@ -17,6 +17,10 @@
   text-align: center;
 }
 
+.navbar i{
+  margin-right: .3em
+}
+
 .navbar h1{
   margin:0;
 }
