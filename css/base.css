@@ -342,6 +342,12 @@ bg_gradient-primary
   background: var(--warning);
 }
 
+.btn_block{
+  width:100%;
+  display: block;
+  margin: 1em auto;
+}
+
 /*Tablas*/
 .table{
 	width:100%;
