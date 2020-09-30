@@ -1,0 +1,43 @@
+.banner {
+    position: relative;
+    margin-top: -2em;
+}
+
+.banner-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner img {
+    overflow: hidden;
+    height: 100%;
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner .caption {
+    position: relative;
+    color: var(--white);
+    padding: 0 0 .5em;
+    text-shadow: 2px 2px var(--dark);
+}
+
+.banner .caption h1 {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 480px) {
+    .banner img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner .caption {
+        padding: 5em 0;
+    }
+}
