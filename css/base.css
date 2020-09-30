@@ -562,7 +562,6 @@ input, textarea{
 
 /********************* Imágenes */
 img {
-  max-width: 100%;
   display: block;
 }
 
@@ -577,4 +576,9 @@ img {
 
 .text_right{
 	text-align:right;
+}
+
+/********************* Botones */
+button {
+  cursor: pointer;
 }
