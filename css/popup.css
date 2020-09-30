@@ -29,6 +29,20 @@
   border-radius: var(--radius);
 }
 
+.popup_container{
+  position: relative;
+}
+
+.popup_container h4{
+  position: absolute;
+  top:.2em;
+  left:1em;
+}
+
+.popup_container hr{
+  margin-top: 1em;
+}
+
 .popup_close{
   margin-left: auto;
   display: table;
