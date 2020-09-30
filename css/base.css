@@ -591,5 +591,18 @@ img {
 /********************* Botones */
 button {
   cursor: pointer;
+}
 
+/********************* Sidebar */
+aside h5 {
+  border-bottom: 1px solid var(--dark);
+}
+
+aside ul {
+  margin: 0;
+  padding: 0;
+}
+
+aside ul li {
+  list-style: none;
 }
