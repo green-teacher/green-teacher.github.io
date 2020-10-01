@@ -33,7 +33,7 @@
   position: relative;
 }
 
-.popup_container h4{
+.popup_title{
   position: absolute;
   top:.2em;
   left:1em;
@@ -47,4 +47,20 @@
   margin-left: auto;
   display: table;
   cursor: pointer;
+}
+
+.popup .aside ul{
+  margin:0;
+  padding: 0;
+}
+
+.popup .aside ul li{
+  list-style: none;
+  margin:0;
+  padding: 0;
+  font-size: .8em;
+}
+
+.popup .aside ul li i{
+  margin-right: .5em;
 }
