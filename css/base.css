@@ -312,10 +312,12 @@ bg_gradient-primary
 
 .btn_primary{
   background: var(--primary);
+  color: var(--white);
 }
 
 .btn_alternative{
   background: var(--alternative);
+  color: var(--white);
 }
 
 .btn_primary_light{
@@ -324,6 +326,7 @@ bg_gradient-primary
 
 .btn_primary_dark{
   background: var(--primary-dark);
+  color: var(--white);
 }
 
 .btn_white{
@@ -332,6 +335,7 @@ bg_gradient-primary
 
 .btn_gray{
   background: var(--gray);
+  color: var(--white);
 }
 
 .btn_light{
@@ -344,14 +348,17 @@ bg_gradient-primary
 
 .btn_success{
   background: var(--success);
+  color: var(--white);
 }
 
 .btn_info{
   background: var(--info);
+  color: var(--white);
 }
 
 .btn_danger{
   background: var(--danger);
+  color: var(--white);
 }
 
 .btn_warning{
