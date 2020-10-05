@@ -1,8 +1,7 @@
-function cursosLink(url, origen){
+function eventos(url, evento, origen){
   url
-  console.log(origen)
   gtag('event', evento, {
     'event-label' : origen,
   });
-  window.open(, '_self');
+  window.open(url, '_self');
 }
