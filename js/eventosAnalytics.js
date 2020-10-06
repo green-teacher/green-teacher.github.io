@@ -1,7 +1,7 @@
 function eventos(url, evento, origen){
   url
   gtag('event', evento, {
-    'event-label' : origen,
+    'label' : origen,
   });
   window.open(url, '_self');
 }
