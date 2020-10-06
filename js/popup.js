@@ -3,6 +3,7 @@ function cleanPopup(){
 }
 
 function openPopup(poptarget){
+  console.log('hoa');
   cleanPopup();
   $(poptarget).addClass('popactive').fadeIn();
 }
