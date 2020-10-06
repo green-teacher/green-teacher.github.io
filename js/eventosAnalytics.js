@@ -1,7 +1,6 @@
 function eventos(url, evento, origen){
-  url
   gtag('event', evento, {
-    'event_label' : origen,
+    'event_label' : 'navbar',
   });
   window.open(url, '_self');
 }
