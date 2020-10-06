@@ -3,6 +3,10 @@
     margin-top: -2em;
 }
 
+.banner-example {
+    margin-top: 0;
+}
+
 .banner-inner {
     position: relative;
     width: 100%;
