@@ -15,9 +15,10 @@
     vertical-align: middle;
     margin-bottom: 20px;
     width: 100%;
+    border: 1px solid rgba(0,0,0,.125);
 }
 
-.card_curso {
+/*.card_curso {
     min-width: 255px;
     max-width: 255px;
     height: 400px;
@@ -27,7 +28,7 @@
     min-width: 235px;
     max-width: 255px;
     height: 350px;
-}
+}*/
 
 .card_body {
     -webkit-box-flex: 1;
@@ -65,6 +66,8 @@
 .card_description {
     font-size: 16px;
     margin-bottom: 10px;
+    min-height: 80px;
+    text-overflow: ellipsis;
 }
 
 .card_author {
@@ -73,10 +76,10 @@
 
 .card_button {
     padding: 10px 25px;
-    position: absolute;
+    position: relative;
     text-transform: none;
     bottom: 10px;
-    width: 185px;
+    min-width: 185px;
 }
 
 .card_preview {
