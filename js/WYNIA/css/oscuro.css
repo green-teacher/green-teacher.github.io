@@ -1,0 +1,15 @@
+*{
+  background-color: #000!important;
+  color:yellow!important;
+  fill: yellow;
+  border-color: yellow!important;
+}
+
+button{
+  background: yellow!important;
+  color: #000!important;
+}
+
+a{
+  text-decoration: underline!important;
+}
