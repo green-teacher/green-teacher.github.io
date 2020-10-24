@@ -15,20 +15,17 @@
     vertical-align: middle;
     margin-bottom: 20px;
     width: 100%;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-/*.card_curso {
-    min-width: 255px;
-    max-width: 255px;
-    height: 400px;
+.card_curso {
+    min-height: 420px;
+    max-height: 470px;
 }
 
 .card_comunidad {
-    min-width: 235px;
-    max-width: 255px;
-    height: 350px;
-}*/
+    min-height: 350px;
+}
 
 .card_body {
     -webkit-box-flex: 1;
@@ -65,7 +62,6 @@
 
 .card_description {
     font-size: 16px;
-    margin-bottom: 10px;
     min-height: 80px;
     text-overflow: ellipsis;
 }
@@ -76,10 +72,9 @@
 
 .card_button {
     padding: 10px 25px;
-    position: relative;
     text-transform: none;
     bottom: 10px;
-    min-width: 185px;
+    min-width: 180px;
 }
 
 .card_preview {
@@ -105,4 +100,8 @@ i {
     width: 100%;
     position: absolute;
     filter: contrast(0.7);
+}
+
+.card_action {
+    margin-bottom: 20px;
 }
