@@ -428,6 +428,15 @@ input, textarea{
   background: var(--primary-light);
 }
 
+.inline-form label, .inline-form input{
+  display: inline;
+  width:auto;
+}
+
+.inline-form label{
+  margin-right: 2em;
+}
+
 /*Utilidades*/
 .m_1{
 	margin:1em;

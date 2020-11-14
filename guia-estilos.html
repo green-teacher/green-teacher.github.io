@@ -266,6 +266,7 @@
                 <dt>Estados</dt>
                 <dd>Cambia de estado en mobile, y menú desplegado.</dd>
               </dl>
+              <h5>Estado default</h5>
               <div style="position:relative;">
               <nav class="navbar bg_dark mb_2">
                   <a href="index.html"><h1 class="text_white"><img src="./img/logo-h-blanco.png" alt="green teacher logo" /><span>Green Teacher</span></h1></a>
@@ -303,6 +304,48 @@
                         <li><a href="./carro-compras.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Carrito</a></li>
                         <li><a class="popup_opener" poptarget="login" href="#">Ingresar</a></li>
                         <li><button class="btn btn_success">Crear cuenta</button></li>
+                      </ul>
+                    </span>
+              </nav>
+              <h5>Nav bar usuario logueado</h5>
+              <nav class="navbar bg_dark mb_2">
+                  <a href="index.html"><h1 class="text_white"><img src="./img/logo-h-blanco.png" alt="green teacher logo" /><span>Green Teacher</span></h1></a>
+                  <span id="burguer" class="text_white"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                      <ul class="burguer_show">
+                        <li id="nav_cursos" class="submenu">
+                          <a href="#" onclick="eventos('./cursos.html', 'cursos_click', 'navbar'); return false;">Cursos</a>
+                          <ul class="subnav nav_cursos pb_2">
+                                <h6 class="text_white text_left">Categorías</h6>
+                              <ul class="row">
+                                <li class="text_white text_center col col-3"><a href="./cursos-reutilizacion.html">Compostaje</a></li>
+                                <li class="text_white text_center col col-3"><a href="./cursos-reutilizacion.html">Reciclado</a></li>
+                                <li class="text_white text_center col col-3"><a href="./cursos-reutilizacion.html">Reutilización</a></li>
+                                <li class="text_white text_center col col-3"><a href="./cursos-reutilizacion.html">Sustentabilidad</a></li>
+                                <li class="text_white text_center col col-3"><a href="./cursos-reutilizacion.html">Separación</a></li>
+                                <li class="text_white text_center col col-3"><a href="./cursos-reutilizacion.html">Tratamientos</a></li>
+                              </ul>
+                            </ul>
+                        </li>
+                        <li id="nav_comunidades" class="submenu"><a href="./comunidades.html">Comunidades</a>
+                          <ul class="subnav nav_comunidades pb_2">
+                                <h6 class="text_white text_left">Categorías</h6>
+                              <ul class="row">
+                                <li class="text_white text_center col col-3"><a href="#">Compostaje</a></li>
+                                <li class="text_white text_center col col-3"><a href="#">Reciclado</a></li>
+                                <li class="text_white text_center col col-3"><a href="#">Reutilización</a></li>
+                                <li class="text_white text_center col col-3"><a href="#">Sustentabilidad</a></li>
+                                <li class="text_white text_center col col-3"><a href="#">Separación</a></li>
+                                <li class="text_white text_center col col-3"><a href="#">Tratamientos</a></li>
+                              </ul>
+                            </ul>
+                        </li>
+                      </ul>
+                      <ul class="menu_right burguer_show">
+                        <li class="text_white">Karmas 0</li>
+                        <li><a href="./carro-compras.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Carrito</a></li>
+                        <li><i class="fa fa-bell text_warning" aria-hidden="true"></i><span class="text_white">1</span></li>
+                        <li><a href="#">Crear curso</a></li>
+                        <li><a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
                       </ul>
                     </span>
               </nav>

@@ -1,0 +1,71 @@
+/*
+<div class="row perfil-head">
+  <div class="col-md-12" style="background:url('https://source.unsplash.com/1600x300/?recycle') no-repeat center;">
+    <div  class="perfil-img">
+      <img src="https://image.freepik.com/free-photo/young-man-with-his-dog-park_23-2148045698.jpg" alt="hombre jóven con un perro labrador negro en la plaza." />
+    </div>
+    <div class="perfil-datos">
+      <h2>Ernesto Mado</h2>
+      <h3>@ernestomado</h3>
+    </div>
+  </div>
+</div>
+*/
+
+
+.perfil-content{
+background-position: center center;
+background-size: cover;
+}
+
+.perfil-head div{
+  padding: 1em;
+}
+
+.perfil-head .perfil-bg{
+  position: absolute;
+  top:0;
+  left:0;
+  width: calc(100%-2em);
+}
+
+.perfil-head .perfil-img{
+  width:20%;
+}
+
+.perfil-head .perfil-datos{
+  width:80%;
+  margin: 0;
+  left:20%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.ultimo-curso h4{
+  font-size: 1em;
+}
+
+.ultimo-curso .ultimo-curso-texto{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.perfil-head .perfil-datos h2,
+.perfil-head .perfil-datos h3{
+  margin:0;
+}
+
+.perfil-head .perfil-img,
+.perfil-head .perfil-datos{
+  float: left;
+}
+
+.perfil-head .perfil-img img{
+  width:100%;
+  border-radius: 50%;
+}
