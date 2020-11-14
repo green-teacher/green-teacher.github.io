@@ -1,0 +1,35 @@
+.same-height{
+  display: block;
+  width: calc(100vw - 2em);
+}
+
+.text_shadow{
+  text-shadow: -1px -1px 8px rgba(255,255,255,.1), 1px 1px 8px rgba(0,0,0,.5);
+}
+
+@media (min-width: 768px) {
+  .same-height{
+    display: block;
+    width: calc(100vw - 2em);
+  }
+}
+
+@media (min-width: 992px) {
+  .same-height{
+    display: flex;
+  }
+
+  .fvc{
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .same-height{
+    display: flex;
+  }
+
+  .fvc{
+    align-items: center;
+  }
+}

@@ -33,7 +33,7 @@
       <button value="Combinación de colores por defecto" id="fondo-claro">Fondo clásico</button> <button value="pasa los fondos a negro y tipografía a amarillo para generat alto contraste" id="fondo-oscuro">Fondo oscuro</button>
       <button value="Vuelve todos los parámetros al diseño original" id="reset">Restablecer valores</button>
     </div>
-      <div id="login" class="popup">
+      <div id="compra" class="popup">
         <div class="popup_container bg_white">
           <h4>Ingresar</h4>
           <span class="popup_close">
@@ -53,7 +53,7 @@
                   <input type="password" id="pass" placeholder="Ingrese su contraseña" />
                   <div class="row">
                     <div class="col col-lg-6">
-                      <button class="btn btn_success btn_block text_white" onclick="window.open('./carro-compras-l.html')">Ingresar</button>
+                      <button class="btn btn_success btn_block text_white">Ingresar</button>
                     </div>
                     <div class="col col-lg-6">
                       <button class="btn btn_white btn_block border border_light">Olvide mi contraseña</button>
@@ -68,24 +68,24 @@
         </div>
       </div>
       <nav class="navbar bg_dark mb_2">
-          <a href="index.html"><h1 class="text_white"><img src="./img/logo-h-blanco.png" alt="green teacher logo" /><span>Green Teacher</span></h1></a>
+          <a href="index-l.html"><h1 class="text_white"><img src="./img/logo-h-blanco.png" alt="green teacher logo" /><span>Green Teacher</span></h1></a>
           <span id="burguer" class="text_white"><i class="fa fa-bars" aria-hidden="true"></i></span>
               <ul class="burguer_show">
                 <li id="nav_cursos" class="submenu">
-                  <a href="./cursos.html">Cursos</a>
+                  <a href="#" onclick="eventos('./cursos-l.html', 'cursos_click', 'navbar'); return false;">Cursos</a>
                   <ul class="subnav nav_cursos pb_2">
                         <h6 class="text_white text_left">Categorías</h6>
                       <ul class="row">
-                        <li class="text_white text_center col col-3"><a href="./cursos-reutilizacion.html">Compostaje</a></li>
-                        <li class="text_white text_center col col-3"><a href="./cursos-reutilizacion.html">Reciclado</a></li>
-                        <li class="text_white text_center col col-3"><a href="./cursos-reutilizacion.html">Reutilización</a></li>
-                        <li class="text_white text_center col col-3"><a href="./cursos-reutilizacion.html">Sustentabilidad</a></li>
-                        <li class="text_white text_center col col-3"><a href="./cursos-reutilizacion.html">Separación</a></li>
-                        <li class="text_white text_center col col-3"><a href="./cursos-reutilizacion.html">Tratamientos</a></li>
+                        <li class="text_white text_center col col-3"><a href="./cursos-reutilizacion-l.html">Compostaje</a></li>
+                        <li class="text_white text_center col col-3"><a href="./cursos-reutilizacion-l.html">Reciclado</a></li>
+                        <li class="text_white text_center col col-3"><a href="./cursos-reutilizacion-l.html">Reutilización</a></li>
+                        <li class="text_white text_center col col-3"><a href="./cursos-reutilizacion-l.html">Sustentabilidad</a></li>
+                        <li class="text_white text_center col col-3"><a href="./cursos-reutilizacion-l.html">Separación</a></li>
+                        <li class="text_white text_center col col-3"><a href="./cursos-reutilizacion-l.html">Tratamientos</a></li>
                       </ul>
                     </ul>
                 </li>
-                <li id="nav_comunidades" class="submenu"><a href="./comunidades.html">Comunidades</a>
+                <li id="nav_comunidades" class="submenu"><a href="./comunidades-l.html">Comunidades</a>
                   <ul class="subnav nav_comunidades pb_2">
                         <h6 class="text_white text_left">Categorías</h6>
                       <ul class="row">
@@ -100,9 +100,11 @@
                 </li>
               </ul>
               <ul class="menu_right burguer_show">
-                <li><a href="./carro-compras.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Carrito</a></li>
-                <li><a class="popup_opener" poptarget="login" href="#">Ingresar</a></li>
-                <li><button class="btn btn_success">Crear cuenta</button></li>
+                <li class="text_white">Karmas 0</li>
+                <li><a href="./carro-compras-l.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Carrito</a></li>
+                <li><i class="fa fa-bell text_warning" aria-hidden="true"></i><span class="text_white">1</span></li>
+                <li><a href="#">Crear curso</a></li>
+                <li><a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
               </ul>
             </span>
       </nav>
@@ -111,7 +113,7 @@
         <main class="container">
             <div class="row breadcrumb_container">
               <ol class="breadcrumb">
-                <li class="breadcrumb_item"><a href="index.html">Green Teacher</a></li>
+                <li class="breadcrumb_item"><a href="index-l.html">Green Teacher</a></li>
                 <li class="breadcrumb_item breadcrumb_item_active" href="#" aria-current="page">Carro de compras</li>
               </ol>
               <!-- <hr> -->
@@ -123,7 +125,7 @@
                     <h2>Compras 1 curso</h2>
                   </div>
                   <div class="col-3 text_right align-self-center">
-                    <p><a href="./cursos.html" title="Cursos">Continuar viendo cursos</a></p>
+                    <p><a href="./cursos-l.html" title="Cursos">Continuar viendo cursos</a></p>
                   </div>
                 </div>
                 <div class="row border border_bottom">
@@ -152,7 +154,7 @@
                   <div class="col text_right">
                     <button class="btn btn_gray" disabled><i class="fa fa-shopping-cart"></i> Pagar con GreenPar</button>
                     <button class="btn btn_gray" disabled><i class="fa fa-shopping-cart"></i> Pagar con Mercadopago</button>
-                    <button class="btn btn_primary popup_opener" poptarget="login" ><i class="fa fa-shopping-cart"></i> Usar Karma</button>
+                    <button class="btn btn_primary" onclick="window.open('./perfil-l.html')"><i class="fa fa-shopping-cart"></i> Usar Karma</button>
                   </div>
                 </div>
               </div>
@@ -166,7 +168,7 @@
                     <div class="card_preview_content bg_light">
                       <a href="#"  class="popup_opener" poptarget="curso" ><img class="card_img" src="https://drive.google.com/thumbnail?id=1hjn4oeX_VHmKYiHU2PpIv4qrV4y5qVzT"
                         alt="Residuos Peligrosos"></a>
-                      <a class="card_category" href="./cursos-reutilizacion.html">Tratamientos</a>
+                      <a class="card_category" href="./cursos-reutilizacion-l.html">Tratamientos</a>
                       <a href="#"  class="popup_opener" poptarget="curso" ><i class="card_img_overlay fa fa-play-circle-o"></i></a>
                     </div>
                   </div>
@@ -187,7 +189,7 @@
                     <div class="card_preview_content bg_light">
                       <a href="#"  class="popup_opener" poptarget="curso" ><img class="card_img" src="https://drive.google.com/thumbnail?id=1qHcyR5tREJbILQzAhvf030CR1P7ydwkk"
                         alt="Desechos acumulados"></a>
-                      <a class="card_category" href="./cursos-reutilizacion.html">Sustentabilidad</a>
+                      <a class="card_category" href="./cursos-reutilizacion-l.html">Sustentabilidad</a>
                       <a href="#"  class="popup_opener" poptarget="curso" ><i class="card_img_overlay fa fa-play-circle-o"></i></a>
                     </div>
                   </div>
@@ -208,7 +210,7 @@
                     <div class="card_preview_content bg_light">
                       <a href="#"  class="popup_opener" poptarget="curso" ><img class="card_img" src="https://drive.google.com/thumbnail?id=13u0dJJVlid4ycqwAPDrDtGlU94UrePEC"
                         alt="Ecoladrillos"></a>
-                      <a class="card_category" href="./cursos-reutilizacion.html">Sustentabilidad</a>
+                      <a class="card_category" href="./cursos-reutilizacion-l.html">Sustentabilidad</a>
                       <a href="#"  class="popup_opener" poptarget="curso" ><i class="card_img_overlay fa fa-play-circle-o"></i></a>
                     </div>
                   </div>
@@ -229,7 +231,7 @@
                     <div class="card_preview_content bg_light">
                       <a href="#"  class="popup_opener" poptarget="curso" ><img class="card_img" src="https://drive.google.com/thumbnail?id=161CscTaSqEo2sgsuJxNYf6UzLglfsw5Z"
                         alt="Contenedores de residuos"></a>
-                      <a class="card_category" href="./cursos-reutilizacion.html">Separación</a>
+                      <a class="card_category" href="./cursos-reutilizacion-l.html">Separación</a>
                       <a href="#"  class="popup_opener" poptarget="curso" ><i class="card_img_overlay fa fa-play-circle-o"></i></a>
                     </div>
                   </div>
@@ -257,7 +259,7 @@
                         <ul>
                             <li class="footer-links"><a href="#">Compostaje</a></li>
                             <li class="footer-links"><a href="#">Reciclado</a></li>
-                            <li class="footer-links"><a href="./cursos-reutilizacion.html">Reutilización</a></li>
+                            <li class="footer-links"><a href="./cursos-reutilizacion-l.html">Reutilización</a></li>
                             <li class="footer-links"><a href="#">Sustentabilidad</a></li>
                             <li class="footer-links"><a href="#">Separación</a></li>
                             <li class="footer-links"><a href="#">Tratamientos</a></li>
