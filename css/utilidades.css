@@ -10,7 +10,7 @@
 @media (min-width: 768px) {
   .same-height{
     display: block;
-    width: calc(100vw - 2em);
+    width: 100%;
   }
 }
 
